@@ -10,7 +10,16 @@ table
     background-color:#494848;
 }
 
-label
+labe
 {
-    color: antiquewhite;
+    color: blanchedalmond;
+}
+h1{
+    font-family:fantasy
+}
+div{
+   background-color: #4a7c59
+}
+p{
+    text-align: center
 }
