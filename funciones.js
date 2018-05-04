@@ -7,14 +7,14 @@ var resultado = 0;
 
 resultado =numero + numero2;
 
-alert(resultado); 
-
-var m = "global";
+		alert(resultado); 
+    
+	var m = "global";
 function muestraMensaje(){
     m = "local";
     alert(m);
 }
 
-alert(m);
-muestraMensaje();
-alert(m)
+	alert(m);
+	muestraMensaje();
+	alert(m);

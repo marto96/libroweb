@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+     <script src="calculadora.js" type="text/javascript"></script>
+</head>
+
+<body>
+   
+    <form align="center" title="Calculadora">
+        <label for="t1">numero1</label>
+        <br></br>            
+        <input type="number" id="cajatexto1" >
+        <br></br>
+        <label for="t1">numero2</label>
+        <br></br>
+        <input type="number" id="cajatexto2">
+        <br></br>    
+       <input type="submit" onclick="return suma()" value="+">
+       <input type="submit" onclick="return restar()" value="-">
+       <input type="submit" onclick="return multiplicar()" value="*">
+       <input type="submit" onclick="return dividir()" value="/">
+<br></br>
+       <label for="t1">Resultado</label>
+<br></br>
+   <input type="number" id="cajatexto3" disabled="false">                     
+    </form>
+</body>
+</html>
